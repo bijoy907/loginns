@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/loginNS/img.jpg);
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.box{
+ width: 300px;   
+ padding: 30px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50% );
+ background: rgba(20, 19, 16, 0.63);
+ text-align: center;
+ border-radius: 10px;
+}
+.box h1{
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]{
+   border: 0; 
+   background: none;
+   display: block;
+   margin: 20px auto;
+   text-align:center;
+   border: 3px solid rgb(47, 255, 168);
+   padding: 14px 10px;
+   width: 240px;
+   outline: none;
+   color: rgb(250, 250, 249);
+   border-radius: 30px;
+   transition: 0.25px;
+}
+.box input[type="text"]:hover, .box input[type="password"]:hover{
+    width: 270px;
+    border-color: rgb(228, 217, 62);
+}
+.box input[type="submit"]{
+    border: 0; 
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align:center;
+    border: 3px solid rgb(255, 47, 144);
+    padding: 10px 35px;
+    outline: none;
+    color: yellow;
+    border-radius: 13px;
+    transition: 0, 25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+background: rgb(22, 8, 8);
+}
+
